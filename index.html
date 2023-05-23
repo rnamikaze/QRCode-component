@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap');
+
+    * {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+    }
+
+    html {
+      font-size: 85%;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    body {
+      background-color: hsl(212, 45%, 89%);
+
+      width: 100vw;
+      height: 100vh;
+
+      display: flex;
+      flex-direction: column;
+
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #qrcode {
+      background-color: hsl(0, 0%, 100%);
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      width: 20vw;
+      height: max-content;
+
+      padding: 15px 15px 20px 15px;
+      border-radius: 20px;
+    }
+
+    #qrcode > #qrimg {
+      border-radius: 10px;
+      padding: 0px;
+    }
+
+    #qrcode > .text {
+      flex-grow: 1;
+      padding: 10px 5px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    #qrcode > .text > * {
+      text-align: center;
+      padding: 7px;
+    }
+
+    #qrcode h1 {
+      color: hsl(218, 44%, 22%);
+    }
+    #qrcode p {
+      color: hsl(220, 15%, 55%);
+    }
+
+    .attribution {
+      width: 100vw;
+      max-height: 20px;
+      padding: 0px 5px;
+      font-size: 1em;
+
+      text-align: center;
+    }
+
+    .attribution a {
+      font-weight: bold;
+      color: hsl(228, 45%, 44%);
+    }
+
+    @media only screen and (max-width: 1254px) {
+      html {
+        font-size: 85%;
+      }
+      #qrcode {
+        min-width: 27%;
+        height: max-content;
+      }
+    }
+
+    @media only screen and (max-width: 1024px) {
+      #qrcode {
+        min-width: 30%;
+        height: max-content;
+      }
+    }
+
+    @media only screen and (max-width: 900px) {
+      #qrcode {
+        min-width: 40%;
+        height: max-content;
+      }
+    }
+
+    @media only screen and (max-width: 800px) {
+      #qrcode {
+        min-width: 45%;
+        height: max-content;
+      }
+    }
+
+    @media only screen and (max-width: 720px) {
+      #qrcode {
+        min-width: 55%;
+        height: max-content;
+      }
+    }
+
+    @media only screen and (max-width: 640px) {
+      #qrcode {
+        min-width: 70%;
+        height: max-content;
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+      #qrcode {
+        min-width: 85%;
+        height: max-content;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <section class="container">
+    <div id="qrcode">
+      <img id="qrimg" src="./images/image-qr-code.png" alt="QR Code">
+      <div class="text">
+        <h1>
+          Improve your front-end skills by building projects
+        </h1>
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://instagram.com/yusufbagus_s">Yusuf Bagus Sholihin</a>.
+  </footer>
+</body>
+
+</html>
