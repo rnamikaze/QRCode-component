@@ -20,7 +20,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: https://rnamikaze.github.io/QRCode-component/
+- Live Site URL: [Github Pages](https://rnamikaze.github.io/QRCode-component/)
 
 ## My process
 
@@ -32,5 +32,5 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Author
 
 - Website - [Yusuf Bagus Sholihin](https://www.crdrgn.site)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@rnamikaze](https://www.frontendmentor.io/profile/rnamikaze)
 - Twitter - [@ryuzen_namikaze](https://www.twitter.com/ryuzen_namikaze)
